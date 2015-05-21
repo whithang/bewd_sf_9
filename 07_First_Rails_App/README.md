@@ -28,7 +28,8 @@ Times below are an approximation
 
 ###Homework
 *	[Holiday Homework - Getting Started with Rails] (http://guides.rubyonrails.org/getting_started.html)
-* Complete missing assignments. If you missed a few assignments, please use the break to complete as many of them as you can.
+* Complete as many missing assignments as you can.
+* Review all lessons (including the ruby_view.html slides)
 
 ###Tips & Tricks
 
