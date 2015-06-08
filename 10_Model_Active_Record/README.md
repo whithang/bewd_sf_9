@@ -15,7 +15,7 @@
 ###Schedule
 
 
-| Time        | Topic| GA ICLS| Comments |
+| Time | Topic | GA ICLS | Comments |
 ******
 
 | 20 min | Review | Quiz | Students create the controller and index view for the movie app|
@@ -37,9 +37,9 @@
   -	User should have the ability to edit and update an existing movie (e.g. `localhost:3000/movies/1/edit`)
   - User should have the ability to view all movies via the index (e.g. `localhost:3000/movies`)
 
-* Read Active Record Basics & Active Record Migration (links are provided in the resources section)
+* Read ActiveRecord Basics & ActiveRecord Migration (links are provided in the resources section)
 
 ###Resources
 
-* [Rails Guides - Active Record Migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
-* [Rails Guides - Active Record Basics](http://edgeguides.rubyonrails.org/active_record_basics.html)
+* [Rails Guides - ActiveRecord Migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
+* [Rails Guides - ActiveRecord Basics](http://edgeguides.rubyonrails.org/active_record_basics.html)
