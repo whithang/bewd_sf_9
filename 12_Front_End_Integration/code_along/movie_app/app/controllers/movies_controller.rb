@@ -31,6 +31,7 @@ class MoviesController < ApplicationController
 
   def show
     @movie = set_movie
+    @reviews = @movie.reviews
   end
 
   def destroy
@@ -45,6 +46,6 @@ class MoviesController < ApplicationController
   end
 
   def movie_params
-    params.require(:movie).permit(:title, :description, :year_released)
+    params.require(:movie).permit(:title, :description, :year_released, :movie_image)
   end
 end

@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
 
+  resources :reviews
+
+  #these are custom urls name them and tell them what controller/action to route to
+  get 'about', to: 'static_pages#about'
+  get 'test', to: 'static_pages#test'
+  get 'home', to: 'static_pages#home'
+
   resources :movies
-  root 'movies#index'
+  root 'static_pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
